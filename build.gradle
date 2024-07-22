@@ -1,12 +1,12 @@
 plugins {
-    // Changed pluggin as original code pluggin was decommissioned
+    // Include the new node-gradle plugin to execute nodejs and npm tasks
     id "com.github.node-gradle.node" version "3.1.0"
 }
 
 node {
     download = true
-    version = "16.13.0"  // Update to a newer LTS version of Node.js
-    npmVersion = "8.1.0"  // Update to a compatible version of npm
+    version = "14.17.5"  // You can set this to the version you need
+    npmVersion = "6.14.14"  // You can set this to the version you need
 }
 
 //declare a build task
