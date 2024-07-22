@@ -9,7 +9,6 @@ node {
     npmVersion = "6.14.14"  // You can set this to the version you need
 }
 
-
 //declare a build task
 task build
 
