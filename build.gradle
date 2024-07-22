@@ -1,5 +1,5 @@
 plugins {
-    // Changed pluggin as earlier pluggin was decommissioned
+    // Changed pluggin as original code pluggin was decommissioned
     id "com.github.node-gradle.node" version "3.1.0"
 }
 
