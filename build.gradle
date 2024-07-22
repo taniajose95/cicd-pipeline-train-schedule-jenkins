@@ -1,13 +1,13 @@
 plugins {
-    // Include the new node-gradle plugin to execute nodejs and npm tasks
     id "com.github.node-gradle.node" version "3.1.0"
 }
 
 node {
     download = true
-    version = "14.17.5"  // You can set this to the version you need
-    npmVersion = "6.14.14"  // You can set this to the version you need
+    version = "16.13.0"  // Use a more recent version of Node.js
+    npmVersion = "8.1.0"  // Update npm to a compatible version
 }
+
 
 //declare a build task
 task build
